@@ -1,12 +1,13 @@
-
 __pycache__/
 *.py[cod]
 *$py.class
+### DLL files
 
 
 venv/
 *.env
-
+## for our virtual enviornment
 
 .ipynb_checkpoints/
+## for jupyter notebook checkpoint
 
