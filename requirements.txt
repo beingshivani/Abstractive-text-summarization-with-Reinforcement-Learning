@@ -1,1 +1,7 @@
+torch
+transformers
+datasets
+rouge_score
+nltk
 
+#these are the requirements
