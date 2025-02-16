@@ -10,7 +10,7 @@ if __name__ == "__main__":
     model_rl = AutoModelForSeq2SeqLM.from_pretrained("./rl_summarizer_rl_finetuned")
     tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
     
-    sample_text = ""Just drop your sample article text here. A few sentences should do the trick and show what kind of data we're talking about."
+    sample_text = "Just drop your sample article text here. A few sentences should do the trick and show what kind of data we're talking about."
     
     print("Baseline Summary:")
     print(generate_summary(model_baseline, tokenizer, sample_text))
